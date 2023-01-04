@@ -1,3 +1,3 @@
-## Hícaro blog
+# Hícaro blog
 
 My personal blog.
