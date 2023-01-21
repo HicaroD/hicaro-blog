@@ -1,0 +1,25 @@
+.profile-description {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.icons {
+    padding-top: 15px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    width: 140px;
+}
+
+.icons i {
+    font-size: 25px !important;
+    cursor: pointer;
+}
+
+#line {
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #F93943;
+    width: 160px;
+}
