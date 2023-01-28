@@ -18,11 +18,11 @@
     border-bottom: 2px solid #594A3C;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 530px) {
     .topbar {
         display: flex;
-        justify-content: center;
         flex-wrap: wrap;
+        justify-content: center;
         padding: 1%;
         font-weight: bold;
         border-bottom: 1px solid #594A3C;
