@@ -1,0 +1,25 @@
+.home {
+    display: flex;
+    padding-top: 15px;
+}
+
+.home img {
+    width: 300px;
+    height: 400px;
+    padding-left: 50px;
+}
+
+.home p {
+    font-size: 21px;
+    color: black;
+}
+
+.home a {
+    text-decoration: none;
+    color: #594A3C;
+}
+
+.home a:hover {
+    text-decoration: underline;
+    color: #594A3C;
+}
