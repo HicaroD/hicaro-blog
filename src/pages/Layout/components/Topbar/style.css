@@ -1,0 +1,30 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    font-weight: bold;
+    border-bottom: 1px solid #594A3C;
+}
+
+#name {
+    display: flex;
+    align-items: center;
+    color: #594A3C;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#navbar a:hover {
+    border-bottom: 2px solid #594A3C;
+}
+
+@media screen and (max-width: 530px) {
+    .topbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1%;
+        font-weight: bold;
+        border-bottom: 1px solid #594A3C;
+    }
+}

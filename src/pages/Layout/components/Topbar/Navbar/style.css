@@ -1,0 +1,14 @@
+#navbar {
+    color: #594A3C;
+    font-size: 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    border: none;
+    color:#594A3C;
+}
+
+#navbar li:hover {
+    border-bottom: #594A3C;
+}
