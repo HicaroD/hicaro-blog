@@ -3,7 +3,6 @@ import "./assets/global.css";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home/index";
 import Projects from "./pages/Projects/index";
-import Articles from "./pages/Articles/index";
 import Contact from "./pages/Contact/index";
 
 export default function App() {
@@ -11,7 +10,6 @@ export default function App() {
     <Route exact path="/" element={<Layout />}>
       <Route index element={<Home />} />
       <Route path="/projects" element={<Projects />} />
-      <Route path="/articles" element={<Articles />} />
       <Route path="/contact" element={<Contact />} />
     </Route>
   </Routes>;
