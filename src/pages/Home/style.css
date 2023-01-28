@@ -23,3 +23,22 @@
     text-decoration: underline;
     color: #594A3C;
 }
+
+@media screen and (max-width: 470px) {
+    .home {
+        display: flex;
+        padding-top: 15px;
+        flex-wrap: wrap;
+    }
+
+    .home img {
+        width: 200px;
+        height: 300px;
+        padding-left: 0;
+        padding-top: 50px;
+    }
+
+    #navbar {
+        padding: 0;
+    }
+}
