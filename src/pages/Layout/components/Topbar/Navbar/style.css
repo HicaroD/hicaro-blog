@@ -12,3 +12,16 @@
 #navbar li:hover {
     border-bottom: #594A3C;
 }
+
+@media screen and (max-width: 530px) {
+    .home img {
+        width: 200px;
+        height: 300px;
+        padding-left: 0;
+    }
+
+    #navbar {
+        padding: 0;
+        flex-wrap: wrap;
+    }
+}

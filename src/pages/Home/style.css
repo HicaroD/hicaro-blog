@@ -10,8 +10,8 @@
 }
 
 .home p {
-    font-size: 21px;
-    color: black;
+    font-size: 25px;
+    color: #0D0D0C;
 }
 
 .home a {
@@ -26,8 +26,6 @@
 
 @media screen and (max-width: 530px) {
     .home {
-        display: flex;
-        padding-top: 15px;
         flex-wrap: wrap;
     }
 
@@ -35,12 +33,10 @@
         width: 200px;
         height: 300px;
         padding-left: 0;
-        padding-top: 50px;
     }
 
     #navbar {
         padding: 0;
         flex-wrap: wrap;
     }
-
 }
