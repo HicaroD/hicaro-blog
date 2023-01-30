@@ -10,6 +10,9 @@ export default function Navbar() {
             <Link to="/projects">Projects</Link>
         </li>
         <li>
+            <Link to={{ pathname: "https://drive.google.com/drive/folders/1HEgd8xXOdbcE1ve6Uhzkxa3vlJ06AfjY" }} target="_blank">Resume</Link>
+        </li>
+        <li>
             <Link to="/contact">Contact</Link>
         </li>
     </ul>;
