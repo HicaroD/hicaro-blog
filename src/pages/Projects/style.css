@@ -1,0 +1,17 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#project {
+    padding: 2%;
+    font-family: "Bitstream Charter", sans-serif;
+    margin: 10px 10px 10px 0px;
+    background-color: #F2ECE4;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+}
+
+#project:hover {
+    box-shadow: 0 0 5px #D9C2A7;
+}
