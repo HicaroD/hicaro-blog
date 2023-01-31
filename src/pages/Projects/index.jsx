@@ -5,10 +5,12 @@ export default function Projects() {
     return <div className="projects">
         {
             projects.map((project, index) => {
-                return <div id="project" key={index}>
-                    <h2 id="project-name">{project.title}</h2>
-                    <p>{project.description}</p>
-                </div>
+                return <a id="project-link" href={project.link} target="_blank">
+                    <div id="project" key={index}>
+                        <h2 id="project-name">{project.title}</h2>
+                        <p>{project.description}</p>
+                    </div>
+                </a>
             })
         }
     </div>;
