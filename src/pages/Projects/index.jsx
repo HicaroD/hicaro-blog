@@ -1,17 +1,20 @@
-import "./style.css";
 import projects from "../../api/projects";
+import ProjectCard from "./components/ProjectCard";
+import "./style.css";
 
 export default function Projects() {
-    return <div className="projects">
-        {
-            projects.map((project, index) => {
-                return <a id="project-link" href={project.link} target="_blank">
-                    <div id="project" key={index}>
-                        <h2 id="project-name">{project.title}</h2>
-                        <p>{project.description}</p>
-                    </div>
-                </a>
-            })
-        }
-    </div>;
+	return (
+		<div className="projects">
+			{projects.map((project, index) => {
+				return (
+					<ProjectCard
+						index={index}
+						title={project.title}
+						description={project.description}
+                        link={project.link}
+					/>
+				);
+			})}
+		</div>
+	);
 }
