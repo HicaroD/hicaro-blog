@@ -24,7 +24,6 @@ export default function Home() {
 				</p>
 				<br></br>
 			</div>
-
 			<img
 				src="https://i.ibb.co/YDD4mmY/Whats-App-Image-2023-01-28-at-11-50-09.jpg"
 				alt=""
