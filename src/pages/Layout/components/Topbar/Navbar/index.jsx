@@ -5,7 +5,7 @@ export default function Navbar() {
 	return (
 		<ul className={styles.navbar}>
 			<li>
-				<Link to="/">Projects</Link>
+				<Link to="/projects">Projects</Link>
 			</li>
 			<li>
 				<Link

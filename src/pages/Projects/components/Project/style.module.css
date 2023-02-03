@@ -1,0 +1,10 @@
+.project {
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
+.project_link {
+    border: none;
+    color:#594A3C;
+    border-bottom: #594A3C;
+}
