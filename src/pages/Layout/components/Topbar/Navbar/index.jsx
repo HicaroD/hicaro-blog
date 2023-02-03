@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import "./style.css";
+import styles from "./style.module.css";
 
 export default function Navbar() {
-    return <ul id="navbar">
+    return <ul id={styles.navbar}>
         <li>
             <Link to="/">Projects</Link>
         </li>

@@ -1,8 +1,8 @@
-import "./style.css";
+import styles from "./style.module.css";
 
 export default function Home() {
-    return <div className="home">
-        <div className="description">
+    return <div className={styles.home}>
+        <div className={styles.description}>
             <p>
                 Hello, everyone! My name is <b>Hícaro Dânrlley</b> and I'm a <b>Computer Science student </b>
                 and a <b>software developer</b>. I started my
