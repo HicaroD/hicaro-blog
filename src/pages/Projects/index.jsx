@@ -1,10 +1,10 @@
 import projects from "../../api/projects";
 import ProjectCard from "./components/ProjectCard";
-import "./style.css";
+import style from "./style.module.css";
 
 export default function Projects() {
 	return (
-		<div className="projects">
+		<div className={style.projects}>
 			{projects.map((project, index) => {
 				return (
 					<ProjectCard
