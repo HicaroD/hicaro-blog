@@ -1,15 +1,16 @@
-#navbar {
+.navbar {
     color: #594A3C;
     font-size: 20px;
 }
 
-#navbar li a {
+.navbar li a {
     text-decoration: none;
     border: none;
     color:#594A3C;
 }
 
-#navbar li:hover {
+.navbar li a:hover {
+    text-decoration: underline;
     border-bottom: #594A3C;
 }
 
@@ -20,7 +21,7 @@
         padding-left: 0;
     }
 
-    #navbar {
+    .navbar {
         padding: 0;
         flex-wrap: wrap;
     }
