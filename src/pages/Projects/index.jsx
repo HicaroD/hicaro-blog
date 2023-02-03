@@ -11,7 +11,7 @@ export default function Projects() {
 						index={index}
 						title={project.title}
 						description={project.description}
-                        link={project.link}
+						link={project.link}
 					/>
 				);
 			})}

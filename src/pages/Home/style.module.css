@@ -1,43 +1,43 @@
 .home {
-    display: flex;
-    padding-top: 15px;
-    font-family: "Bitstream Charter", sans-serif;
+	display: flex;
+	padding-top: 15px;
+	font-family: "Bitstream Charter", sans-serif;
 }
 
 .home img {
-    width: 300px;
-    height: 400px;
-    padding-left: 50px;
+	width: 300px;
+	height: 400px;
+	padding-left: 50px;
 }
 
 .home p {
-    font-size: 22px;
-    color: #0D0D0C;
+	font-size: 22px;
+	color: #0d0d0c;
 }
 
 .home a {
-    text-decoration: none;
-    color: #594A3C;
+	text-decoration: none;
+	color: #594a3c;
 }
 
 .home a:hover {
-    text-decoration: underline;
-    color: #594A3C;
+	text-decoration: underline;
+	color: #594a3c;
 }
 
 @media screen and (max-width: 530px) {
-    .home {
-        flex-wrap: wrap;
-    }
+	.home {
+		flex-wrap: wrap;
+	}
 
-    .home img {
-        width: 200px;
-        height: 300px;
-        padding-left: 0;
-    }
+	.home img {
+		width: 200px;
+		height: 300px;
+		padding-left: 0;
+	}
 
-    #navbar {
-        padding: 0;
-        flex-wrap: wrap;
-    }
+	#navbar {
+		padding: 0;
+		flex-wrap: wrap;
+	}
 }
