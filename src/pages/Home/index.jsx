@@ -23,6 +23,12 @@ export default function Home() {
 					life just to make you proud of me.
 				</p>
 				<br></br>
+				<p>
+					You can find me on{" "}
+					<a href="https://www.linkedin.com/in/hicaromiguel/">LinkedIn</a> or{" "}
+					<a href="mailto:hdanrlley1@gmail.com">e-mail</a> for business
+					inquiries.
+				</p>
 			</div>
 			<img
 				src="https://i.ibb.co/YDD4mmY/Whats-App-Image-2023-01-28-at-11-50-09.jpg"

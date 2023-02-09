@@ -13,7 +13,7 @@ export default function Projects() {
 
 	return (
 		<div className={styles.projects}>
-			<h1>Below you can see projects I've authored:</h1>
+			<h1>Projects I've authored:</h1>
 			<ul>{getProjects()}</ul>
 		</div>
 	);
