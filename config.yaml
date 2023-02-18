@@ -200,7 +200,7 @@ params:
           This API was built wih Express. In the back-end, I'm using MongoDB as NoSQL database 
           to store all the data about the users. For security, I'm encrypting sensitive informations 
           using bcrypt and JSON Web Token (JWT) for user authentication.
-        image: /images/projects/pomo_restful.webp
+        image: /images/projects/pomo.jpeg
         badges:
           - "NodeJS"
           - "Express"
@@ -210,6 +210,62 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/PomoOrg/Pomo-API
+
+      - title: TodoAsIssue
+        content: |- 
+          TodoAsIssue is a command-line interface that helps to create issues on your repository
+          hosted on GitHub or GitLab.
+        image: /images/projects/todo_as_issue_project.png
+        badges:
+          - "Dart"
+          - "RESTful API"
+          - "CLI"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/HicaroD/TodoAsIssue
+
+      - title: PullRequests
+        content: |- 
+          PullRequest is a command-line interface that helps to create pull requests on your repository
+          hosted on GitHub.
+        image: /images/projects/pull_request_project.jpg
+        badges:
+          - "Python"
+          - "RESTful API"
+          - "CLI"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/HicaroD/pull-requests
+
+      - title: Portfolio website
+        content: |- 
+          That's just my old portfolio website built with Django.
+        image: /images/projects/old_portfolio_website_project.png
+        badges:
+          - "Python"
+          - "Django"
+          - "HTML"
+          - "CSS"
+          - "JavaScript"
+          - "Heroku"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/HicaroD/portfolio-website
+
+      - title: Conway's Game of Life
+        content: |- 
+          My own implementation of Conway's Game of Life written in C++ and SDL2.
+        image: /images/projects/game_of_life_project.jpg
+        badges:
+          - "C++"
+          - "SDL2"
+        featured:
+          name: Demo
+          link: https://youtu.be/3e47CYvVRYQ
+        links:
+          - icon: fab fa-github
+            url: https://github.com/HicaroD/game-of-life
+              
 
   #Contact
   contact:
