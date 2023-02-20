@@ -140,10 +140,10 @@ params:
       At first, I wanted to be a lawyer, but a great friend of mine told me about a Harvard course 
       called CS50 and that changed my life forever (Thanks, Alice). I also want to appreciate my best
       friends: Pedro, Isadora and my cousin Alícia, life is so much better with you all. 
-      And most importantly, I love you, mom, I will dedicate my whole life just to make you proud of me.
+      And most importantly, I love you, mom, I will dedicate my entire life just to make you proud of
+      me.
         
       By day I'm a Flutter developer building mobile apps. 
-
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
