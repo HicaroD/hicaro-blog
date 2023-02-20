@@ -197,9 +197,10 @@ params:
 
       - title: RESTful API for Pomo
         content: |- 
-          This API was built wih Express. In the back-end, I'm using MongoDB as NoSQL database 
-          to store all the data about the users. For security, I'm encrypting sensitive informations 
-          using bcrypt and JSON Web Token (JWT) for user authentication.
+          This API was built with NodeJS. In the back-end, I'm using ExpressJS to build a RESTful API.
+          To store all the data, I'm using MongoDB as NoSQL database. For security, I'm encrypting
+          sensitive informations, such as passwords, using bcrypt and JSON Web Token (JWT)
+          for user authentication.
         image: /images/projects/pomo.jpeg
         badges:
           - "NodeJS"
