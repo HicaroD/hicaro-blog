@@ -239,6 +239,21 @@ params:
           - icon: fab fa-github
             url: https://github.com/HicaroD/pull-requests
 
+      - title: CHIP8.rs
+        content: |- 
+          CHIP8.rs is a CHIP8 interpreter written in Rust. This project helped me to learn a little bit more about how
+          computers work.
+        image: /images/projects/chip8.png
+        badges:
+          - "Rust"
+          - "interpreter"
+          - "CHIP8"
+          - "computers"
+          - "low-level software"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/HicaroD/chip8-rs
+
       - title: Portfolio website
         content: |- 
           That's just my old portfolio website built with Django.
